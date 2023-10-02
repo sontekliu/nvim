@@ -10,6 +10,7 @@ return {
     opts = {
           -- A list of parser names, or "all" (the five listed parsers should always be installed)
         ensure_installed = "all",
+        ignore_install  = { "t32", "blueprint", "fusion", "jsonc"}, 
         -- 语法高亮
         highlight = {
             enable = true,
