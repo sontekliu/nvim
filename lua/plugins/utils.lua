@@ -26,4 +26,34 @@ return {
         event = "VeryLazy",
         config = true,
     },
+    {
+        -- 加快 jk 的移动速度
+        "rhysd/accelerated-jk",
+        keys = {
+            { "j", "<Plug>(accelerated_jk_gj)" },
+            { "k", "<Plug>(accelerated_jk_gk)" },
+        },
+    },
+    {
+        -- 文件再次打开时候,光标在退出文件时的位置
+        "ethanholz/nvim-lastplace",
+        config = true,
+    },
+    {
+        'echasnovski/mini.ai',
+        event = "VeryLazy",
+        config = true,
+    },
+    {
+        -- 注释
+        "echasnovski/mini.comment",
+        event = "VeryLazy",
+        config = true,
+    },
+    {
+        -- 包括字符串
+        "echasnovski/mini.surround",
+        event = "VeryLazy",
+        config = true,
+    },
 }

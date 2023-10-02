@@ -23,8 +23,8 @@ return {
         -- require('telescope').load_extension('fzf')
     end,
     keys = {
-        { '<leader>?',       "<cmd>lua require('telescope.builtin').oldfiles()<CR>", { desc = '查看近期打开的文件' } },
-        { "<leader><space>", "<cmd>lua require('telescope.builtin').buffers({ sort_mru = true })<CR>", { desc = '列出当前打开的文件' } }, 
+        { '<leader>?',       "<cmd>lua require('telescope.builtin').oldfiles()<CR>", desc = '查看近期打开的文件' },
+        { "<leader><space>", "<cmd>lua require('telescope.builtin').buffers({ sort_mru = true })<CR>", desc = '列出当前打开的文件' }, 
         { "<leader>/",
         function()
             -- You can pass additional configuration to telescope to change theme, layout, etc.
@@ -32,10 +32,10 @@ return {
                 winblend = 10,
                 previewer = false,
             })
-        end, {desc = "输入关键字在当前文件(buffer)搜索"}
+        end, desc = "输入关键字在当前文件(buffer)搜索"
     },
-    { '<leader>ff', "<cmd>lua require('telescope.builtin').find_files()<CR>", { desc = "查找文件"} },
-    { '<leader>fg', "<cmd>lua require('telescope.builtin').live_grep()<CR>", { desc = "查找关键字"} },
+    { '<leader>ff', "<cmd>lua require('telescope.builtin').find_files()<CR>", desc = "查找文件" },
+    { '<leader>fg', "<cmd>lua require('telescope.builtin').live_grep()<CR>",  desc = "查找关键字" },
     { '<leader>fh', "<cmd>lua require('telescope.builtin').help_tags()<CR>" },
     { '<leader>fp', "<cmd>lua require('telescope.builtin').builtin()<CR>" },
     { '<leader>fm', "<cmd>lua require('telescope.builtin').marks()<CR>" },
