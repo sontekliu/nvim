@@ -46,9 +46,11 @@ return {
     },
     {
         -- 注释
-        "echasnovski/mini.comment",
-        event = "VeryLazy",
-        config = true,
+        -- "echasnovski/mini.comment",
+        "tpope/vim-surround",
+        -- event = "VeryLazy",
+        config = function()
+        end
     },
     {
         -- 包括字符串
