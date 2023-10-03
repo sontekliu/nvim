@@ -24,7 +24,7 @@ return {
     end,
     keys = {
         { '<leader>?',       "<cmd>lua require('telescope.builtin').oldfiles()<CR>", { desc = '查看近期打开的文件' } },
-        { "<leader><space>", "<cmd>lua require('telescope.builtin').buffers({ sort_mru = true })<CR>", { desc = '列出当前打开的文件' } }, 
+        { "<space><space>", "<cmd>lua require('telescope.builtin').buffers({ sort_mru = true })<CR>", { desc = '列出当前打开的文件' } }, 
         { "<leader>/",
         function()
             -- You can pass additional configuration to telescope to change theme, layout, etc.
