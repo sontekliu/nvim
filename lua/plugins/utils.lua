@@ -55,6 +55,7 @@ return {
         -- "echasnovski/mini.surround",
         "tpope/vim-surround",
         event = "VeryLazy",
-        config = true,
+        config = function()
+        end
     },
 }
