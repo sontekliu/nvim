@@ -46,15 +46,14 @@ return {
     },
     {
         -- 注释
-        -- "echasnovski/mini.comment",
-        "tpope/vim-surround",
-        -- event = "VeryLazy",
-        config = function()
-        end
+        "echasnovski/mini.comment",
+        event = "VeryLazy",
+        config = true
     },
     {
         -- 包括字符串
-        "echasnovski/mini.surround",
+        -- "echasnovski/mini.surround",
+        "tpope/vim-surround",
         event = "VeryLazy",
         config = true,
     },
