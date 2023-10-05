@@ -52,7 +52,6 @@ keymap.set("n", "te", ":tabedit<CR>", {silent = true}) -- silent 表示左下角
 keymap.set("n", "<leader><space>", ":nohl<CR>")
 
 
-
 -- ---------- 插件 ---------- ---
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
@@ -62,9 +61,11 @@ keymap.set("n", "<C-L>", ":bnext<CR>")
 keymap.set("n", "<C-H>", ":bprevious<CR>")
 
 -- hop cmd
-keymap.set("n", "<leader>hw", ":HopWord<CR>")
-keymap.set("n", "<leader>hww", ":HopWordMW<CR>")
-keymap.set("n", "<leader>hc", ":HopChar2<CR>")
-keymap.set("n", "<leader>hcc", ":HopChar2MW<CR>")
-keymap.set("n", "<leader>hl", ":HopLine<CR>")
-keymap.set("n", "<leader>hls", ":HopLineStart<CR>")
+-- keymap.set("n", "<leader>hw", ":HopWord<CR>")
+-- keymap.set("n", "<leader>hww", ":HopWordMW<CR>")
+-- keymap.set("n", "<leader>hc", ":HopChar2<CR>")
+-- keymap.set("n", "<leader>hcc", ":HopChar2MW<CR>")
+-- keymap.set("n", "<leader>hl", ":HopLine<CR>")
+-- keymap.set("n", "<leader>hls", ":HopLineStart<CR>")
+
+
