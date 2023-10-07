@@ -58,4 +58,21 @@ return {
         config = function()
         end
     },
+    {
+        "dstein64/vim-startuptime",
+        cmd = "StartupTime",
+        config = function()
+            vim.g.startuptime_tries = 10
+        end,
+    },
+    {
+        "iamcco/markdown-preview.nvim",
+        build = "cd app && yarn install",
+        ft = "markdown",
+        keys = { { "mp", ":MarkdownPreviewToggle<CR>", desc = "预览markdown文件"} },
+        config = function()
+            vim.fn["mkdp#util#install"]()
+        end,
+    }
+
 }
