@@ -14,7 +14,7 @@ opt.background = "dark"
 --
 -- 设置行号,显示相对行号,高亮当前行
 --
-opt.relativenumber=true
+-- opt.relativenumber=true
 opt.number=true
 opt.cursorline = true
 
